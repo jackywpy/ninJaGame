@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		23DC7E331B830F8D00F8B952 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23DC7E321B830F8D00F8B952 /* AppDelegate.swift */; };
+		23DC7E351B830F8D00F8B952 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 23DC7E341B830F8D00F8B952 /* GameScene.sks */; };
+		23DC7E371B830F8E00F8B952 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23DC7E361B830F8E00F8B952 /* GameScene.swift */; };
+		23DC7E391B830F8E00F8B952 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23DC7E381B830F8E00F8B952 /* GameViewController.swift */; };
+		23DC7E3C1B830F8E00F8B952 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23DC7E3A1B830F8E00F8B952 /* Main.storyboard */; };
+		23DC7E3E1B830F8E00F8B952 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23DC7E3D1B830F8E00F8B952 /* Images.xcassets */; };
+		23DC7E411B830F8E00F8B952 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23DC7E3F1B830F8E00F8B952 /* LaunchScreen.xib */; };
+		23DC7E4D1B830F8E00F8B952 /* ninjiaGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23DC7E4C1B830F8E00F8B952 /* ninjiaGameTests.swift */; };
+		23DC7E591B83342D00F8B952 /* myExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23DC7E581B83342D00F8B952 /* myExtensions.swift */; };
+		23DC7E5C1B83394800F8B952 /* background-music-aac.caf in Resources */ = {isa = PBXBuildFile; fileRef = 23DC7E5A1B83394800F8B952 /* background-music-aac.caf */; };
+		23DC7E5D1B83394800F8B952 /* pew-pew-lei.caf in Resources */ = {isa = PBXBuildFile; fileRef = 23DC7E5B1B83394800F8B952 /* pew-pew-lei.caf */; };
+		23DC7E5F1B83407500F8B952 /* ResultScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23DC7E5E1B83407500F8B952 /* ResultScene.swift */; };
+		23F3D9631B845E99000F6B02 /* 简黛玉.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 23F3D9621B845B8E000F6B02 /* 简黛玉.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		23DC7E471B830F8E00F8B952 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23DC7E251B830F8C00F8B952 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 23DC7E2C1B830F8C00F8B952;
+			remoteInfo = ninjiaGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		23DC7E2D1B830F8C00F8B952 /* ninjiaGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ninjiaGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		23DC7E311B830F8D00F8B952 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23DC7E321B830F8D00F8B952 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		23DC7E341B830F8D00F8B952 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		23DC7E361B830F8E00F8B952 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		23DC7E381B830F8E00F8B952 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		23DC7E3B1B830F8E00F8B952 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		23DC7E3D1B830F8E00F8B952 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		23DC7E401B830F8E00F8B952 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		23DC7E461B830F8E00F8B952 /* ninjiaGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ninjiaGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		23DC7E4B1B830F8E00F8B952 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23DC7E4C1B830F8E00F8B952 /* ninjiaGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ninjiaGameTests.swift; sourceTree = "<group>"; };
+		23DC7E581B83342D00F8B952 /* myExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = myExtensions.swift; sourceTree = "<group>"; };
+		23DC7E5A1B83394800F8B952 /* background-music-aac.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "background-music-aac.caf"; sourceTree = "<group>"; };
+		23DC7E5B1B83394800F8B952 /* pew-pew-lei.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "pew-pew-lei.caf"; sourceTree = "<group>"; };
+		23DC7E5E1B83407500F8B952 /* ResultScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultScene.swift; sourceTree = "<group>"; };
+		23F3D9621B845B8E000F6B02 /* 简黛玉.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "简黛玉.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		23DC7E2A1B830F8C00F8B952 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23DC7E431B830F8E00F8B952 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		23DC7E241B830F8C00F8B952 = {
+			isa = PBXGroup;
+			children = (
+				23DC7E2F1B830F8D00F8B952 /* ninjiaGame */,
+				23DC7E491B830F8E00F8B952 /* ninjiaGameTests */,
+				23DC7E2E1B830F8D00F8B952 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		23DC7E2E1B830F8D00F8B952 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				23DC7E2D1B830F8C00F8B952 /* ninjiaGame.app */,
+				23DC7E461B830F8E00F8B952 /* ninjiaGameTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		23DC7E2F1B830F8D00F8B952 /* ninjiaGame */ = {
+			isa = PBXGroup;
+			children = (
+				23DC7E321B830F8D00F8B952 /* AppDelegate.swift */,
+				23DC7E361B830F8E00F8B952 /* GameScene.swift */,
+				23DC7E581B83342D00F8B952 /* myExtensions.swift */,
+				23DC7E5E1B83407500F8B952 /* ResultScene.swift */,
+				23DC7E381B830F8E00F8B952 /* GameViewController.swift */,
+				23F3D9621B845B8E000F6B02 /* 简黛玉.ttf */,
+				23DC7E3D1B830F8E00F8B952 /* Images.xcassets */,
+				23DC7E301B830F8D00F8B952 /* Supporting Files */,
+			);
+			path = ninjiaGame;
+			sourceTree = "<group>";
+		};
+		23DC7E301B830F8D00F8B952 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				23DC7E341B830F8D00F8B952 /* GameScene.sks */,
+				23DC7E3A1B830F8E00F8B952 /* Main.storyboard */,
+				23DC7E3F1B830F8E00F8B952 /* LaunchScreen.xib */,
+				23DC7E5A1B83394800F8B952 /* background-music-aac.caf */,
+				23DC7E5B1B83394800F8B952 /* pew-pew-lei.caf */,
+				23DC7E311B830F8D00F8B952 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		23DC7E491B830F8E00F8B952 /* ninjiaGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				23DC7E4C1B830F8E00F8B952 /* ninjiaGameTests.swift */,
+				23DC7E4A1B830F8E00F8B952 /* Supporting Files */,
+			);
+			path = ninjiaGameTests;
+			sourceTree = "<group>";
+		};
+		23DC7E4A1B830F8E00F8B952 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				23DC7E4B1B830F8E00F8B952 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		23DC7E2C1B830F8C00F8B952 /* ninjiaGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23DC7E501B830F8E00F8B952 /* Build configuration list for PBXNativeTarget "ninjiaGame" */;
+			buildPhases = (
+				23DC7E291B830F8C00F8B952 /* Sources */,
+				23DC7E2A1B830F8C00F8B952 /* Frameworks */,
+				23DC7E2B1B830F8C00F8B952 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ninjiaGame;
+			productName = ninjiaGame;
+			productReference = 23DC7E2D1B830F8C00F8B952 /* ninjiaGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		23DC7E451B830F8E00F8B952 /* ninjiaGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23DC7E531B830F8E00F8B952 /* Build configuration list for PBXNativeTarget "ninjiaGameTests" */;
+			buildPhases = (
+				23DC7E421B830F8E00F8B952 /* Sources */,
+				23DC7E431B830F8E00F8B952 /* Frameworks */,
+				23DC7E441B830F8E00F8B952 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				23DC7E481B830F8E00F8B952 /* PBXTargetDependency */,
+			);
+			name = ninjiaGameTests;
+			productName = ninjiaGameTests;
+			productReference = 23DC7E461B830F8E00F8B952 /* ninjiaGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		23DC7E251B830F8C00F8B952 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Ogilvy & Mather RW";
+				TargetAttributes = {
+					23DC7E2C1B830F8C00F8B952 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					23DC7E451B830F8E00F8B952 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 23DC7E2C1B830F8C00F8B952;
+					};
+				};
+			};
+			buildConfigurationList = 23DC7E281B830F8C00F8B952 /* Build configuration list for PBXProject "ninjiaGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 23DC7E241B830F8C00F8B952;
+			productRefGroup = 23DC7E2E1B830F8D00F8B952 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				23DC7E2C1B830F8C00F8B952 /* ninjiaGame */,
+				23DC7E451B830F8E00F8B952 /* ninjiaGameTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		23DC7E2B1B830F8C00F8B952 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23F3D9631B845E99000F6B02 /* 简黛玉.ttf in Resources */,
+				23DC7E5C1B83394800F8B952 /* background-music-aac.caf in Resources */,
+				23DC7E411B830F8E00F8B952 /* LaunchScreen.xib in Resources */,
+				23DC7E3E1B830F8E00F8B952 /* Images.xcassets in Resources */,
+				23DC7E351B830F8D00F8B952 /* GameScene.sks in Resources */,
+				23DC7E3C1B830F8E00F8B952 /* Main.storyboard in Resources */,
+				23DC7E5D1B83394800F8B952 /* pew-pew-lei.caf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23DC7E441B830F8E00F8B952 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		23DC7E291B830F8C00F8B952 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23DC7E371B830F8E00F8B952 /* GameScene.swift in Sources */,
+				23DC7E391B830F8E00F8B952 /* GameViewController.swift in Sources */,
+				23DC7E331B830F8D00F8B952 /* AppDelegate.swift in Sources */,
+				23DC7E5F1B83407500F8B952 /* ResultScene.swift in Sources */,
+				23DC7E591B83342D00F8B952 /* myExtensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23DC7E421B830F8E00F8B952 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23DC7E4D1B830F8E00F8B952 /* ninjiaGameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		23DC7E481B830F8E00F8B952 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 23DC7E2C1B830F8C00F8B952 /* ninjiaGame */;
+			targetProxy = 23DC7E471B830F8E00F8B952 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		23DC7E3A1B830F8E00F8B952 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23DC7E3B1B830F8E00F8B952 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		23DC7E3F1B830F8E00F8B952 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23DC7E401B830F8E00F8B952 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		23DC7E4E1B830F8E00F8B952 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		23DC7E4F1B830F8E00F8B952 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		23DC7E511B830F8E00F8B952 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ninjiaGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		23DC7E521B830F8E00F8B952 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ninjiaGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		23DC7E541B830F8E00F8B952 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ninjiaGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ninjiaGame.app/ninjiaGame";
+			};
+			name = Debug;
+		};
+		23DC7E551B830F8E00F8B952 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ninjiaGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ninjiaGame.app/ninjiaGame";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		23DC7E281B830F8C00F8B952 /* Build configuration list for PBXProject "ninjiaGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23DC7E4E1B830F8E00F8B952 /* Debug */,
+				23DC7E4F1B830F8E00F8B952 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23DC7E501B830F8E00F8B952 /* Build configuration list for PBXNativeTarget "ninjiaGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23DC7E511B830F8E00F8B952 /* Debug */,
+				23DC7E521B830F8E00F8B952 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23DC7E531B830F8E00F8B952 /* Build configuration list for PBXNativeTarget "ninjiaGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23DC7E541B830F8E00F8B952 /* Debug */,
+				23DC7E551B830F8E00F8B952 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 23DC7E251B830F8C00F8B952 /* Project object */;
+}
